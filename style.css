@@ -7,9 +7,7 @@
 
 /*-- stora grejer, hela sidan --*/
 body {
-    display: flex;
-    justify-content: center;
-    background: black;
+
 }
 div {
     /*se till att width, padding, border ingår i totala bredden. Dock ej margin*/
@@ -17,81 +15,59 @@ div {
     box-sizing: border-box;
 }
 h1, h2, h3 {
-    color: orange;
-    font-family: Arial;
+
 }
 .wrapper {
     width: 1200px;
-    border-radius: 4px;
 }
 .section {
-    background: white;
+
 }
+
 /*-- knappar och sånt --*/
 .btn {
-    display: inline-block;
-    border-radius: 5px;
-    background: orange;
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    font-family:Arial;
+
 }
 .btn-large{
-    font-size: 1.5em;
-    text-transform: uppercase;
+
 }
 /*-- loggan --*/
 .header {
-    background: darkgrey;
-    border-radius: 10px 10px 0px 0px;
-    padding: 10px;
+
 }
+
 
 /*-- menyn --*/
 .menu {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    display:flex;
+
 }
 .menu-link {
-    color: orange;
-    text-decoration: none;
-    display: block;
-    padding: 5px 20px;
+
 }
 .active {
-    border-bottom: solid 4px orange;
+
 }
+
+
 /*-- splash --*/
 .splash {
-    display: flex;
+
 }
 .feat-txt {
-    width: 50%;
-    padding: 10px;
+
 }
 .feat-img {
-    width: 50%;
-    height: 300px;
-    background: url("img/dreamhack.jpg");
-    background-size: cover;
+    
 }
+
 
 /*-- featured --*/
 .feat {
-    background: lightgray;
-    padding-top: 10px;
-    display: flex;
+
 }
 .feat-box {
-    width: 33%;
-    margin: 10px;
-    background: white;
-    padding: 10px;
+    
 }
 .feat-box img {
-    max-width: 100%;
-    border-bottom:solid thin gray;
+    
 }
